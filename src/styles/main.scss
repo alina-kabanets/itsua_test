@@ -66,8 +66,12 @@ nav {
   color: #002cff;
 }
 
-.nav-icon--menu {
+.nav-icon {
   display: none;
+}
+
+.nav-icon--menu {
+  display: block;
   width: 18px;
   height: 18px;
 }
@@ -133,7 +137,7 @@ nav {
 
 .btn-secondary {
   background: transparent;
-  color: #1F42E0;
+  color: #1f42e0;
   border: 2px solid #705fbf;
 }
 
@@ -268,7 +272,7 @@ footer {
     display: none;
   }
 
-  .nav-icon--menu {
+  .nav-icon {
     display: block;
   }
 
