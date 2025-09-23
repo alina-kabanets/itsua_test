@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -182,7 +181,7 @@ nav {
   font-size: 28px;
 }
 
-.feature-card h3 {
+.feature-card h2 {
   font-size: 22px;
   margin-bottom: 12px;
   color: #333;
@@ -210,7 +209,7 @@ nav {
   text-align: center;
 }
 
-.stat-item h4 {
+.stat-item h3 {
   font-size: 48px;
   font-weight: 700;
   background: linear-gradient(135deg, #667eea, #764ba2);
@@ -285,5 +284,9 @@ footer {
   .btn {
     width: 100%;
     max-width: 280px;
+  }
+
+  .footer-links {
+    display: block;
   }
 }
